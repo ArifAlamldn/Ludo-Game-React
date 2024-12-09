@@ -8,7 +8,7 @@ const SecGame = ({ clickedButton, setclickedButton, score, setScore }) => {
       alert("Please Select a button");
     } else {
       const number = Math.floor(Math.random() * 6) + 1; // Generate random number
-      setNum(number); // Update dice number state
+      setNum(number); 
 
       if (clickedButton === number) {
         setScore(score + 5); // Increment score if guessed correctly
@@ -19,8 +19,8 @@ const SecGame = ({ clickedButton, setclickedButton, score, setScore }) => {
   };
 
   const resetScore = () => {
-    setScore(0); // Reset score to 0
-    setclickedButton(null); // Reset the selected button
+    setScore(0); 
+    setclickedButton(null);
   };
 
   return (
