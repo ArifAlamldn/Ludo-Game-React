@@ -1,19 +1,19 @@
 import React from 'react';
 
 const SecGame = ({ clickedButton, setclickedButton, score, setScore }) => {
-  const [num, setNum] = React.useState(1); // Dice number state
+  const [num, setNum] = React.useState(1); 
 
   const randomNumer = () => {
     if (clickedButton === null) {
       alert("Please Select a button");
     } else {
-      const number = Math.floor(Math.random() * 6) + 1; // Generate random number
+      const number = Math.floor(Math.random() * 6) + 1; 
       setNum(number); 
 
       if (clickedButton === number) {
-        setScore(score + 5); // Increment score if guessed correctly
+        setScore(score + 5); 
       } else {
-        setScore(score - 1); // Decrement score if guessed wrong
+        setScore(score - 1); 
       }
     }
   };
@@ -38,7 +38,7 @@ const SecGame = ({ clickedButton, setclickedButton, score, setScore }) => {
             Reset Score
           </button>
         </div>
-        {/* Render the score directly from the props */}
+        {}
         <p>Current Dice Number: {num}</p>
       </div>
     </div>

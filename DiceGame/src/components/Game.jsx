@@ -20,13 +20,13 @@ const Game = () => {
         <div className="second-col">
           {[1, 2, 3, 4, 5, 6].map((val) => (
             <button
-              key={val} // Unique key for React
+              key={val} 
               className="btns"
               style={{
                 backgroundColor: clickedButton === val ? "black" : "white",
                 color: clickedButton === val ? "white" : "black",
-              }} // Conditionally change background and text color
-              onClick={() => btnSelect(val)} // Pass the button value to btnSelect
+              }} 
+              onClick={() => btnSelect(val)} 
             >
               {val}
             </button>
