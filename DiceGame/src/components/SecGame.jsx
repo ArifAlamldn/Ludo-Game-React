@@ -22,7 +22,6 @@ const SecGame = ({ clickedButton, setclickedButton, score, setScore }) => {
     setScore(0); 
     setclickedButton(null);
   };
-
   return (
     <div className='sec-details'>
       <div className='dice-menu'>

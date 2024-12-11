@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import SecGame from "./SecGame";
-
 const Game = () => {
   const [score,setScore] = useState(0)
-  const [clickedButton, setClickedButton] = useState(null); // Track the clicked button
+  const [clickedButton, setClickedButton] = useState(null);
 
   const btnSelect = (value) => {
-    setClickedButton(value); // Set the clicked button's value
+    setClickedButton(value); 
     console.log("Button clicked:", value);
   };
 
