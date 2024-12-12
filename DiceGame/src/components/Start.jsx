@@ -1,7 +1,6 @@
 const Start = ({start,setStart}) => {
     const gameStart = ()=>{
-        setStart(!start)
-       
+        setStart(!start)  
     }
     return (
       <div className="start">

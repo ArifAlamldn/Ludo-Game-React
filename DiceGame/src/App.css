@@ -4,14 +4,12 @@
   display: flex;
   justify-content: space-between;
   gap: 20px;
- 
 }
 .plus{
   min-width: 1182px;
   max-height: 522px;
   display: flex;
   flex-direction: column;
-  
 }
 .img{
   height: 100%;
@@ -38,7 +36,6 @@
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  
 }
 .first-col{
   width: 100%;

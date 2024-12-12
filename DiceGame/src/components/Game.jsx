@@ -8,7 +8,6 @@ const Game = () => {
     setClickedButton(value); 
     console.log("Button clicked:", value);
   };
-
   return (
     <div className=" plus">
       <div className="first-col">
@@ -38,5 +37,4 @@ const Game = () => {
     </div>
   );
 };
-
 export default Game;
