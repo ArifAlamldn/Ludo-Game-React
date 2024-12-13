@@ -1,6 +1,7 @@
 const Start = ({start,setStart}) => {
     const gameStart = ()=>{
         setStart(!start)  
+
     }
     return (
       <div className="start">
@@ -12,6 +13,7 @@ const Start = ({start,setStart}) => {
       </div>
     );
   };
+  
   
   export default Start;
   

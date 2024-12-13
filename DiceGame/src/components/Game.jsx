@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import SecGame from "./SecGame";
 const Game = () => {
+  
   const [score,setScore] = useState(0)
   const [clickedButton, setClickedButton] = useState(null);
 
