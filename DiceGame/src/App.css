@@ -59,6 +59,7 @@
   line-height: 0cqb;
 }
 .first-col{
+  
   min-width: 1182px;
   max-height: 30vh;
   display: flex;

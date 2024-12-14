@@ -13,7 +13,6 @@ const Start = ({start,setStart}) => {
       </div>
     );
   };
-  
-  
+
   export default Start;
   
