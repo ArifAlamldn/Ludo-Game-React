@@ -9,6 +9,7 @@ function App() {
 
   return (
     <>
+    
      <div className='app'>
      {start?(
      <Start start={start} setStart={setStart}/>

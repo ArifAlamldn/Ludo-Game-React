@@ -2,6 +2,7 @@ import React from 'react';
 
 const SecGame = ({ clickedButton, setclickedButton, score, setScore }) => {
   const [num, setNum] = React.useState(1); 
+  
   const randomNumer = () => {
     if (clickedButton === null) {
       alert("Please Select a button");
